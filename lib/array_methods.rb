@@ -7,9 +7,13 @@
 
  def find_element_index(array, value_to_find)
   # Add your solution here
-  scale = [2,3,4,5]
- value_to_find = 2
- array.index(0)
+ length = array.length
+   length.times do |index|
+     if array[index] == value_to_find
+       return index
+     end
+   end
+   return nil
 end
 
 
