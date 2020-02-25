@@ -8,8 +8,8 @@
  def find_element_index(array, value_to_find)
   # Add your solution here
   scale = [2,3,4,5]
- value_to_find = 4
- array.index(4)
+ value_to_find = 2
+ array.index(0)
 end
 
 
